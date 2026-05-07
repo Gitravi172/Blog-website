@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { logout } from "../redux/dilsediary";
+import { logout } from "../Redux/dilsediary";
 import { Outlet, useNavigate, Link } from "react-router";
 import { account } from "../Appwrite/config";
 import toast from "react-hot-toast";

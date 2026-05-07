@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router";
 import SunEditor from "suneditor-react";
 import "suneditor/dist/css/suneditor.min.css";
-import { isloading } from "../redux/dilsediary";
+import { isloading } from "../Redux/dilsediary";
 import { useDispatch, useSelector } from "react-redux";
 const PostForm = ({ createblog, post = null, isedit }) => {
   const navigate = useNavigate();
