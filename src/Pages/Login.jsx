@@ -1,8 +1,8 @@
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router";
 import { account } from "../Appwrite/config";
-import { isloading } from "../redux/dilsediary.js";
-import { islogin } from "../redux/dilsediary.js";
+import { isloading } from "../Redux/dilsediary.js";
+import { islogin } from "../Redux/dilsediary.js";
 import { useSelector, useDispatch } from "react-redux";
 import toast from "react-hot-toast";
 
