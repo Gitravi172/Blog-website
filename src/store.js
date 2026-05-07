@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import  dilsediaryReducer  from './dilsediary.js'
+import  dilsediaryReducer  from './redux/dilsediary.js'
 
 export const store = configureStore({
   reducer: {
