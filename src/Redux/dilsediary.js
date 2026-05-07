@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const dilsediarySlice=createSlice({
-    name:"dilsediary",
+    name:"blog",
     initialState:{
         loading:false,
         session: localStorage.getItem("loginsession")?JSON.parse(localStorage.getItem("loginsession")):null

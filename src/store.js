@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit'
-import  dilsediaryReducer  from './redux/dilsediary.js'
+import { configureStore } from "@reduxjs/toolkit";
+import dilsediaryReducer from "./redux/dilsediary";
 
 export const store = configureStore({
   reducer: {
-blog:dilsediaryReducer
+    blog: dilsediaryReducer,
   },
-})
+});

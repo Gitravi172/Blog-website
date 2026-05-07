@@ -1,11 +1,10 @@
 import { Link } from "react-router";
 import { useSelector } from "react-redux";
+
 const Nav = () => {
-  const {session}=useSelector((state)=>state.blog)
+  const session =useSelector((state)=>state.blog?.session)
   
     return(
-      
-
     //   {/* Navbar */}
       <nav className="sticky bg-white top-0 shadow-sm">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
