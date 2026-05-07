@@ -2,7 +2,10 @@ import { FaHeart, FaBookmark } from "react-icons/fa";
 import { Getsinglepost } from "../Appwrite/service";
 import { useParams,Link } from "react-router";
 import { useEffect, useState } from "react";
+
+
 const ViewPost = () => {
+
  const {postid}=useParams()
  const [data,setdata]=useState({})
  const getpost =async()=>{
@@ -12,6 +15,7 @@ const ViewPost = () => {
 useEffect(()=>{
   getpost()
 },[postid])
+
 const sethtml=(d)=>{
   return {__html:d}
 }
@@ -58,4 +62,4 @@ const sethtml=(d)=>{
   );
 };
 
-export default ViewPost;
+export default ViewPost
